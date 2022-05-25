@@ -1,0 +1,29 @@
+{
+  "name": "parking-controller",
+  "version": "1.0.0",
+  "description": "parking controller Api",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eithan-hernandez/parking-controller.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eithan-hernandez/parking-controller/issues"
+  },
+  "homepage": "https://github.com/eithan-hernandez/parking-controller#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
