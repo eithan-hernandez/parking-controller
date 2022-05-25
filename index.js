@@ -8,8 +8,8 @@ const app = express();
 //app.use(require("./src/routes/routes.js"));
 
 
-app.listen(Number(process.env.PORT), () =>
+app.listen(Number(3030), () =>
   console.log(
-    `API parking controller running in: ${process.env.PORT}`
+    `API parking controller running in: ${3030}`
   )
 );
